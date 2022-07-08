@@ -1,0 +1,218 @@
+/* body section */
+body
+{
+    text-transform: capitalize;
+   
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+  
+  background: url("../image/bg.jpg") repeat 0 0;
+
+}
+/* welcome section (in first div)*/
+.name
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    text-align: center;
+    color: #66BFBF;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+.space
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    text-align: center;
+    color: #66BFBF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 150px 350px 0 400px;
+}
+.bio
+{
+    color: #66BFBF;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-weight: normal;
+   
+}
+
+/* rocket */
+.srt
+{
+   
+    border-radius: 100%;
+    padding: 150px 400px 0;
+}
+.up
+{
+    float:left;
+    margin: 10px 100px 0 0;
+    display: inline;
+}
+.tophole
+{
+    float: left;
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 100px 0 0;
+}
+.down
+{
+    margin-left: 800px;
+}
+/* line*/
+.line
+{
+    height: 80px;
+    width: 100%;
+
+}
+.dp
+{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+
+}
+/* for left side image*/
+.stc
+{
+    float: left;
+    margin-right: 50px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+/* for right side image*/
+.stz
+{
+    float: right;
+    margin-left: 50px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+/* all four section width with line height*/
+.about,.skills,.intrest,.education
+{
+    width: 80%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+.about-row
+{
+    text-align: left;
+    margin: 100px auto 50px auto;
+}
+.skill-row,.intrest-row,.education-row
+{
+    text-align: left;
+    margin: 200px auto 200px auto;
+}
+.education-row2
+{
+    text-align: right;
+    margin: 200px auto 200px auto;
+}
+
+
+h2
+{
+    text-decoration:dotted underline #DAEAF1;
+    color: #FFF338;
+    
+}
+h2:hover
+{
+    color: #DAEAF1;
+}
+h3
+{
+
+    color: #F9F9F9;
+}
+
+
+li,p
+{
+    color: aqua;
+}
+li:hover,p:hover
+{
+    color: #06FF00;
+}
+
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #34d970;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #3cacfc;
+    text-decoration: none;
+  }
+  a 
+  {
+    color: #DAEAF1 ;
+  }
+  a:hover{
+    color: rgb(0, 255, 225);
+  }
+ .footer-link
+ {
+    margin: 50px 30px 10px 30px;
+    text-decoration: none;
+ }
+ .footer-link:hover
+ {
+    color:  #34d970;
+ }
+ .footer-link:visited
+ {
+    color: #FF0000;
+ }
+.bottom-container
+{
+    
+    margin-top: 50px;
+    background-color: #4C3A51;
+}
+.copyright
+{
+    color:#fff;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.clearflot,.clearfloatgrd
+{
+    clear: left;
+    padding-top: 50px;
+}
+.clearflota,.clearfloatinter
+{
+    clear: right;
+    padding-top: 50px;
+}
+
+
+@media (max-width: 1364px) {
+.mobile{
+   position: relative;
+   float: left;
+}
+}
